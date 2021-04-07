@@ -1,0 +1,17 @@
+<div class="list-group">
+    <button
+      type="button"
+      class="list-group-item list-group-item-action active"
+      aria-current="true"
+    >
+      RENKLER
+    </button>
+    <button
+      type="button"
+      class="list-group-item list-group-item-action"
+      *ngFor="let color of colors"
+    >
+      {{ color.colorName }}
+    </button>
+  </div>
+  
